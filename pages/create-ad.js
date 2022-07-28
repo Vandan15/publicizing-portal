@@ -16,7 +16,7 @@ export default function createaAd() {
       </Head>
       <Header/>
       <HeadLine/>
-      <GridList/>
+      <GridList black={true}/>
       <Stepper/>
     </div>
   )

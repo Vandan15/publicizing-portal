@@ -28,10 +28,15 @@ export default function Header() {
           COMPANY
         </div>
         <div className='search-wrapper'>
-          <input tyoe='text' placeholder='Search for area, street name...'></input>
+          <select className='location-dropdown'>
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Pune</option>
+          </select>
+          <input type='text' placeholder='Search for area, street name...'></input>
         </div>
         <div className='icons-wrapper'>
-          <div className='cart-icon me-3'>
+          <div className='cart-icon me-4'>
             <Image src={cartIcon} height='30' width='30' onClick={() => router.push('/cart')}></Image>
           </div>
           <div className='profile-icon'>

@@ -31,9 +31,33 @@ export default function UserCart() {
                   <label>Ads Tagline</label>
                   <input type='text' />
                 </div>
-                <div className='input-details col-lg-12'>
-                  <label>Address</label>
-                  <textarea />
+                <div className='input-details col-lg-6'>
+                  <label>Address line 1</label>
+                  <input type='text' />
+                </div>
+                <div className='input-details col-lg-6'>
+                  <label>Address line 2</label>
+                  <input type='text' />
+                </div>
+                <div className='input-details col-lg-6'>
+                  <label>City</label>
+                  <input type='text' />
+                </div>
+                <div className='input-details col-lg-6'>
+                  <label>PIN code</label>
+                  <input type='text' />
+                </div>
+                <div className='input-details col-lg-6'>
+                  <label>State</label>
+                  <input type='text' />
+                </div>
+                <div className='input-details col-lg-6'>
+                  <label>Country</label>
+                  <input type='text' />
+                </div>
+                <div className='input-details col-lg-6'>
+                  <label>Phone</label>
+                  <input type='text' />
                 </div>
               </div>
             </div>
